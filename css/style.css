@@ -1,0 +1,236 @@
+/* here is comments */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	font-family: sans-serif;
+	font-family: 'Dancing Script', cursive;
+	line-height: 24px;
+	height: 1000px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: monospace;   
+	font-family: 'Lobster Two', cursive;
+
+    font-family: 'Poppins', sans-serif;
+}
+a, a hover{
+	text-decoration: none;
+}
+.green{
+	width: 800px;
+	height: 400px;
+	background: green;
+	position: relative;
+	margin: 60px;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 23%;
+	left: 35%;
+}
+.text h2{
+	margin: 10px 145px;
+	color: blue;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+
+.orange{
+	width: 150px;
+	height: 150px;
+	background: orange;
+	border-radius: 100%;
+	position: fixed;
+	top: 10%;
+	left: 70%;
+	transition: 1s;
+}
+.orange:hover{
+	width: 150px;
+	height: 150px;
+	background: green;
+	border-radius: 100%;
+	position: fixed;
+	top: 10%;
+	left: 70%;
+}
+/* Bibidha Share Button */
+.fb{
+	width: 150px;
+	top: 30%;
+	right: -122px;
+	position: fixed;
+	transition: 1s;
+}
+.fb:hover{
+	right: -3px;
+	cursor: pointer;
+}
+.be{
+	width: 150px;
+	top: 35%;
+	right: -122px;
+	position: fixed;
+	transition: 1s;
+}
+.be:hover{
+	right: -3px;
+	cursor: pointer;
+}
+.tw{
+	width: 150px;
+	top: 40%;
+	right: -122px;
+	position: fixed;
+	transition: 1s;
+}
+.tw:hover{
+	right: -3px;
+	cursor: pointer;
+}
+.li{
+	width: 150px;
+	top: 45%;
+	right: -122px;
+	position: fixed;
+	transition: 1s;
+}
+.li:hover{
+	right: -3px;
+	cursor: pointer;
+}
+.yt{
+	width: 150px;
+	top: 50%;
+	right: -122px;
+	position: fixed;
+	transition: 1s;
+}
+.yt:hover{
+	right: -3px;
+	cursor: pointer;
+}
+.pt{
+	width: 150px;
+	top: 55%;
+	right: -122px;
+	position: fixed;
+	transition: 1s;
+}
+.pt:hover{
+	right: -3px;
+	cursor: pointer;
+}
+.in{
+	width: 150px;
+	top: 60%;
+	right: -122px;
+	position: fixed;
+	transition: 1s;
+}
+.in:hover{
+	right: -3px;
+	cursor: pointer;
+}
+/*	Social Media CSS*/
+
+.social-media{
+	margin: -70px 0px 30px 30px;
+	width: 100%;
+	height: 30px 0px;
+	padding: 30px 0px;
+	background: #bbb;
+}
+.social-icons{
+	text-align: center;
+	width: 100%;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+		/*       Social Media Icon CSS with Hover and Focus	 */
+
+.social-icons li a .fa{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	font-size: 24px;
+	transition: 1s;
+	margin: 0px 15px;
+}
+.social-icons li a .fa-facebook{
+	background: #1094F4;
+	color: white;
+}
+.social-icons li a .fa-twitter{
+	background: #E8F5FD;	
+	color: #1D9BF0;
+}
+.social-icons li a .fa-linkedin{
+	background: #0A66C2;
+	color: white;
+}
+.social-icons li a .fa-instagram{
+	background: #DA2778;
+	color: white;
+}
+.social-icons li a .fa-youtube{
+	background: #FF0000;
+	color: white;
+}
+.social-icons li a .fa-behance{
+	background: #1E6CF4;
+	color: white;
+}
+
+.social-icons li a:hover .fa-facebook, .social-icons li a:focus .fa-facebook{
+	background: white;
+	color: #1094F4;
+}
+.social-icons li a:hover .fa-twitter, .social-icons li a:focus .fa-twitter{
+	background: #1D9BF0;
+	color: #E8F5FD;
+}
+.social-icons li a:hover .fa-linkedin, .social-icons li a:focus .fa-linkedin{
+	background: white;
+	color: #0A66C2;
+}
+.social-icons li a:hover .fa-instagram, .social-icons li a:focus .fa-instagram{
+	background: white;
+	color: #DA2778;
+}
+.social-icons li a:hover .fa-youtube, .social-icons li a:focus .fa-youtube{
+	background: white;
+	color: #FF0000;
+}
+.social-icons li a:hover .fa-behance, .social-icons li a:focus .fa-behance{
+	background: white;
+	color: #1E6CF4;
+}
+.paragraph{
+	margin: 30px;
+}
+.paragraph h2{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 36px;
+	color: green;
+	padding: 8px;
+	margin-bottom: 30px
+}
+.paragraph p{
+	text-align: justify;
+	font-size: 28px;
+	color: blueviolet;
+}
